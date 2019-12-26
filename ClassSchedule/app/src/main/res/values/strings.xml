@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Class_table</string>
+    <string name="week">第一周</string>
+    <string name="lesson">节/周</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="first_lesson">1</string>
+    <string name="second_lesson">2</string>
+    <string name="third_lesson">3</string>
+    <string name="fourth_lesson">4</string>
+    <string name="fifth_lesson">5</string>
+    <string name="sixth_lesson">6</string>
+    <string name="seventh_lesson">7</string>
+    <string name="eighth_lesson">8</string>
+
+</resources>

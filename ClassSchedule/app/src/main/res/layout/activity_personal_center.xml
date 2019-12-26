@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/Menu_main_textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-03-01"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Menu_main_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sherry,欢迎你"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_below="@+id/Menu_main_major"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Menu_main_institute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="信息技术学院"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:layout_below="@+id/Menu_main_textDate"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/Menu_main_major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Menu_main_institute"
+        android:text="软件工程（移动互联网+）"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/ly"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            >
+            <Button
+                android:id="@+id/changemm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="修改密码"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.4">
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="退出登录" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="返回" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
